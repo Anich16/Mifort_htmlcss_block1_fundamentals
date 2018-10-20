@@ -1,0 +1,235 @@
+body {
+	background-color: #feeecf;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	font-family: "Arial", sans-serif;
+	color: #000;
+	display: flex;
+	flex-direction: row-reverse;
+}
+.photo {
+	float: right;
+	border: 5px solid;
+	margin-left: 15px;
+}
+.button {
+    font-weight: normal;
+    font-size: 12px;
+}
+.button .button-correction {
+	border: navajowhite;
+    background: none;
+    color: #9930d9;
+}
+.button .button-correction:hover {
+	text-decoration: underline;
+    color: #d8a8f5;
+}
+.text {
+	line-height: 20px;
+	font-size: 16px;
+	display: block;
+}
+.user-info {
+	width: 87%;
+	height: 100%;
+		
+}
+.title-lv-2 {
+	margin-bottom: 0;
+	font-size: 20px;
+}
+.title-lv-3 {
+	display: flex;
+    justify-content: space-between;
+    background: #ca8f8f;
+    margin: 0;
+    padding: 5px;
+    font-size: 18px;
+}
+ .title-lv-4 {
+	text-align: center;
+}
+.null-link {
+	text-decoration: none;
+    color: #294fdf;
+}
+.null-link:hover {
+	text-decoration: underline;
+    color: #8aa0f3;
+}
+.link {
+    text-decoration: none;
+    color: #9930d9;
+}
+.link:hover {
+    text-decoration: underline;
+    color: #a87ec2;
+}
+header {
+	border-bottom: 1px solid #551e1e;
+	padding-right: 10px;
+}
+.nav-menu-block .nav-menu-list {
+	list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-menu-block .nav-menu-list .item {
+	margin-right: 10px;
+	color: #0e0d0db3;
+}
+.nav-menu-block .nav-menu-list .item:last-of-type {
+	margin-right: 0;
+}
+.menu-block {
+	display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #551e1e;
+}
+.menu-block .link {
+    padding: 5px 10px ;
+}
+
+.menu-block .menu-list-left {
+	list-style: none;
+    display: flex;
+    margin-left: 0;
+    padding: 0;
+    margin-bottom: 0;
+}
+.menu-block .menu-list-left .link {
+	
+	border-right: 1px solid #551e1e;
+}
+.menu-block .menu-list-left .link:first-of-type {
+	border-left: 1px solid #551e1e;
+}
+.menu-block .menu-list-right {
+	list-style: none;
+    display: flex;
+    margin-bottom: 0;
+}
+.menu-block .menu-list-right .link {
+	border-left: 1px solid #551e1e;	
+}
+section {
+	padding: 0 20px 20px;
+	border-left: 1px solid #551e1e;
+	
+}
+
+.info-content .title-lv-1 {
+	margin-bottom: 0;
+	margin-top: 0;
+	padding-top: 0.83em;
+	line-height: 20px;
+}
+.info-about {
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    
+}
+.tablet-of-contents {
+	width: 280px;
+    height: 165px;
+    padding: 5px;
+    background: #d68e8e7a;
+    border: 1px solid #551e1e;
+}
+
+.tablet-of-contents .num-list .item {
+	margin-bottom: 5px;
+}
+
+.practice-block .code-block {
+	padding: 25px;
+	background: #d68e8e7a;
+}
+.info-links-block {
+	border: 1px solid #551e1e;
+    padding: 10px;
+}
+
+.info-links-block .list {
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+}
+.info-links-block .list .item {
+    margin: 0;
+    margin-right: 30px;
+}
+.info-links-block .list .item:first-of-type {
+	list-style: none;
+}
+
+.categories-block {
+    display: flex;
+    border: 1px solid #551e1e;
+    margin-top: 15px;
+    padding: 5px;
+}
+.categories-block .text {
+    margin-right: 15px;
+    margin-top: 15px;
+}
+.categories-block .list {
+	display: flex;
+    list-style: none;
+    padding: 0;
+}
+.categories-block .list .item {
+	padding-right: 5px;
+    margin-right: 10px;
+    border-right: 1px solid #551e1e;
+}
+.categories-block .list .item:last-of-type {
+	border-right: none;
+	margin-right: 0;
+	padding-right: 0;
+}
+footer {
+	padding: 25px;
+	background: #d68e8e7a;
+}
+footer .text {
+	font-size: 12px;
+}
+.footer-menu .list {
+    display: flex;
+    font-size: 12px;
+    list-style: none;
+    justify-content: start;
+    padding: 0;
+}
+.footer-menu .list .item {
+	margin-right: 10px;
+}
+aside {
+	width: 13%;
+	background-color: #d68e8e7a;
+	padding: 20px;
+	text-align: left;
+}
+.logo-block {
+	text-align: center;
+}
+
+.nav-block .title-lv-5 {
+	font-size: 15px;
+	margin: 0;
+	color: #0e0d0db3;
+}
+
+.nav-block .list {
+	list-style: none;
+	padding: 0;
+}
+
+
