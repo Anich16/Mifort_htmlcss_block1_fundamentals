@@ -1,0 +1,42 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.box {
+	padding: 70px 200px;
+	min-height: 350px;
+	background-color: #2196f3; 
+}
+
+.panda {
+	width: 250px;
+	height: 200px;
+	background-color: #fff;
+	border: 6px solid #000;
+	border-bottom-width: 12px;
+	border-radius: 120px 120px 70px 70px;
+	box-shadow: inset 10px -10px 0 #5b5f63;
+        background-image: radial-gradient(circle at 50% 55%, #000 15px, transparent 20px),
+        				  radial-gradient(ellipse at 50% 75%, #000 11px, transparent 12px);
+}
+.panda:before {
+        content: "";
+    display: block;
+    width: 250px;
+    height: 65px;
+    background-image: radial-gradient(circle at 13% 48%, #000 30px, transparent 32px),
+    				  radial-gradient(circle at 87% 48%, #000 30px, transparent 32px);
+	
+}
+.panda:after {
+	content: "";
+    display: block;
+    width: 250px;
+    
+    margin-top: -10px;
+    
+    height: 65px;
+    background-image: radial-gradient(circle at 29% 43%, #000 25px, transparent 30px),
+     				  radial-gradient(circle at 71% 43%, #000 25px, transparent 30px);
+     				  
+}
